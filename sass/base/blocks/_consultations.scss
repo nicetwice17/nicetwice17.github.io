@@ -1,0 +1,21 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url(../img/bg2.png) center (center / cover) no-repeat;
+    &_descr {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 85px;
+        text-transform: uppercase;
+    }
+    .error {
+        border: 1px solid $main_color;
+    }
+    label.error {
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}

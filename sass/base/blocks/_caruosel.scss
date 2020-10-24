@@ -1,0 +1,31 @@
+    .carousel {
+    padding: 81px 0;
+    max-height: 740px;
+    &__inner {
+        position: relative;
+        max-width: 750px;
+        height: 600px;
+        margin: 0 auto;
+    }
+    .owl-carousel {
+        img {
+            max-height: 600px;
+        }
+    }
+    .owl-prev, .owl-next {
+        position: absolute;
+        border: none;
+        background-color: #ffffff;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        button {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .owl-next {
+        right: -66px;
+        left: auto;
+    }
+}

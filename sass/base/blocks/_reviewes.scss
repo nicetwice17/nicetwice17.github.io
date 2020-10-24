@@ -1,0 +1,43 @@
+.reviewes {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 75px;
+    .review {
+        max-width: 850px;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 70px;
+        padding: 0 20px 0 20px;
+        animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+        &_content {
+            width: 100%;
+            padding-left: 70px;
+        }
+        &_name {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &_stats {
+            font-size: 14px;
+            color: #959595;
+            margin-left: 2px;
+            margin-top: 5px;
+        }
+        &_descr {
+            margin-top: 8px;
+            font-size: 15px;
+        }
+    }
+    .review_avatar {
+        width: 160px;
+        height: 160px;
+        margin-top: 5px;
+        img {
+            width: 160px;
+            height: 100%;
+            }
+        }
+}

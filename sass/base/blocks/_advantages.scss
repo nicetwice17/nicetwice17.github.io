@@ -1,0 +1,44 @@
+.advantages {
+    background-color: #f6f6f6;
+    min-height: 100%;
+    padding: 70px 0 70px 0; 
+    &_title {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    &_icons {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_img {
+        max-width: 238px;
+    }
+    &_subtitle {
+        display: block;
+        text-align: center;
+        margin: 34px 0 30px 0;
+        font-size: 18px;
+    }
+    &_descr {
+        display: block;
+        text-align: center;
+        font-size: 13px;
+        line-height: 20px;
+        a {
+            text-decoration: underline;
+            color: $main_color;
+            font-weight: 500;
+        }
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    .advantags_icon_animate {
+        animation: heartbeat 1.5s ease infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
+}
